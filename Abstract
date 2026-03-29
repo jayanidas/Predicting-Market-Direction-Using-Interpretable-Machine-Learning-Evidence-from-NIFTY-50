@@ -1,0 +1,12 @@
+Abstract
+
+This project aims to predict the 5-day ahead market direction of the NIFTY 50 using interpretable machine learning techniques. 
+Historical daily price data from 2010–2024 was collected and transformed into log returns and technical indicators. 
+A classification framework was developed where the target variable represents the future direction of returns. 
+Logistic Regression, Decision Tree, and Random Forest models were implemented and evaluated using a time-series train-test split. 
+Model performance was assessed using accuracy, precision, recall, and ROC-AUC metrics. 
+A trading strategy based on model predictions was constructed to evaluate economic usefulness. 
+The strategy performance was compared with the market using cumulative returns, Sharpe ratio, and drawdown analysis. 
+Interpretability techniques such as feature importance and SHAP values were applied to understand model behavior. 
+The results indicate that machine learning models provide slight improvements over baseline models but remain close to random prediction levels. 
+The study highlights the presence of weak predictability in financial markets and emphasizes the importance of interpretability in model-driven decision making.
